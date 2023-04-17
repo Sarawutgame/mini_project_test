@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: ./React-app
+      dockerfile: Dockerfile 
+    image: 63070165/my-react_image:1.0
