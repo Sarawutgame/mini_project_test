@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#nav-bord{
+  color: salmon;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(153, 255, 216);
+  /* padding: 0.2rem calc((100vw - 1000px) / 2); */
+  /* position:fixed; */
+  width: 100%;
+  z-index: 100;
+  box-shadow: 2px 2px 2px rgb(173, 173, 173);
+  position: sticky;
+  top:0%;
+}
+
+.Header-name{
+  margin-left: 5%;
+}
+
+.nav-button{
+  color:#2F0F5D;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.user-profile{
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-pro{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-profile{
+  margin-left: 10px;
+  color:black;
+}
+
+.user-profile-contrainer{
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
