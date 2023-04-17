@@ -39,7 +39,7 @@
   }
 }
 #nav-bord{
-  color: salmon;
+  color: rgb(255, 226, 223);
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
